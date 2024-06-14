@@ -32,8 +32,19 @@ text-shadow: 0px 5px 5px #282828;
     background-image: url(../IMG/maxresdefault.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 300px; 
+    max-height: 300px;
 }
 
+.ability{
+    width: 140px;
+     height: 150px;
+}
+
+.gif{
+    height: 100px;
+    width: 100px;
+}
 
 .card-body{
     border-radius: 5px;
@@ -50,6 +61,8 @@ text-shadow: 0px 5px 5px #282828;
 
 .contenedor{
     margin-left: 5px;
+    height: 300px; 
+    width: 1400px;
 }
 
 

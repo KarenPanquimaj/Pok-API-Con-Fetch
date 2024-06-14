@@ -28,12 +28,12 @@ const cargarpokemones = (selctValue) => {
                         if (miniData.types.find((item) => item.type.name == selctValue) || selctValue == undefined) {
                             columnas += `
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
-                    <div class="card mb-4 fondo" style="min-height: 300px; max-height: 300px;">
+                    <div class="card mb-4 fondo">
                         <div class="card-body">
                             <p id="pokemon">Nombre del pokemon:${pokemon.name}</p>
                             <p id="texto">Habilidades:${habilidadesTexto}</p>
-                            <img src="${abilitiesimg}" alt="" style="width: 140px; height: 150px;">
-                            <img src="${abilitiesgif}">
+                            <img src="${abilitiesimg}" class ="ability">
+                            <img src="${abilitiesgif}" class="gif">
                             <a href="${pokemon.url}" class="link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover link">Detalles</a>
                         </div>
                     </div>
